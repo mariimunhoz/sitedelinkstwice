@@ -1,0 +1,68 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  background: linear-gradient(135deg, #fff3e0, #fce4ec, #ede7f6);
+  color: #880e4f;
+  margin: 0;
+  padding: 0;
+
+  .fotomusica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+.fotomusica img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+}
+
+header {
+  background-color: #ffd54f;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px dashed #f06292;
+}
+
+h1 {
+  font-size: 2.3em;
+  color: #ad1457;
+  text-shadow: 1px 1px 2px #ffb3c6;
+}
+
+main {
+  padding: 20px;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin: 12px 0;
+}
+
+a {
+  color: #6a1b9a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff4081;
+  text-decoration: underline;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #ba68c8;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,98 @@
+/* Importando uma fonte estilosa do Google Fonts (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fce3ff, #e0f7fa, #fffde7);
+  background-size: 300% 300%;
+  animation: gradientMove 10s ease infinite;
+  color: #4a0072;
+  text-align: center;
+
+  
+.foto-do-grupo img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+}
+
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+header {
+  background: #ffd54f;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 5px solid #ce93d8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #880e4f;
+  font-size: 3em;
+  margin: 0;
+  text-shadow: 2px 2px 4px #fff0f5;
+}
+
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+  background: rgba(227, 192, 240, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #4a148c;
+}
+
+a {
+  color: #d500f9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8e24aa;
+  text-decoration: underline;
+}
+
+twicepng {
+  text-align: center;
+}
+
+.btn-voltar {
+
+  display: inline-block;
+
+  margin-top: 30px;
+
+  padding: 10px 20px;
+
+  background: #ba68c8;
+
+  color: white;
+
+  border-radius: 20px;
+
+  text-decoration: none;
+
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+
+}
+
+
+
+

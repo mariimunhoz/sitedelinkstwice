@@ -1,0 +1,53 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(120deg, #f3e5f5, #e1bee7, #d1c4e9);
+  color: #4a148c;
+  margin: 0;
+  padding: 0;
+
+  .foto-do-album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55%;
+}
+
+.foto-do-album img {
+  max-width: 20%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+}
+
+header {
+  background-color: #ff80ab;
+  color: white;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 8px #ba68c8;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-shadow: 1px 1px 4px #ffccff;
+}
+
+main {
+  padding: 20px;
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  background: #ba68c8;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
